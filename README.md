@@ -1,2 +1,4 @@
 # Java_OOP-DSA
-Object Oriented Programming in Java and DSA repo
+Object Oriented Programming in Java 
+<br>
+DSA in Java
