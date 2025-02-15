@@ -1,4 +1,4 @@
 # Java_OOP-DSA
 Object Oriented Programming in Java 
 <br>
-DSA in Java (beginner to advanced)
+Initially I thought of keeping DSA codes here but it seems this repository is gonna be a bit long.
