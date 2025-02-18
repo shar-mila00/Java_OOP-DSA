@@ -1,0 +1,12 @@
+There are primitive / most basic data types : byte, short, int, long, float, double, char, boolean (provided by their respective Wrapper classes)
+<br>
+range of integers : Integer.MAX_VALUE to Integer.MIN_VALUE (Integer is a wrapper class)
+<br>
+MAX_VALUE + 1 = MIN_VALUE (overflow) and MIN_VALUE - 1 = MAX_VALUE (underflow)
+<br>
+1.3E-45 = 1.3*10^-45 
+decimal literal in java is by default double ,, we must write 8.567f for float 
+ASCII Code: (A - Z) = (65 - 90) , (a - z) = (97 - 122)
+
+Strings are immutable (can't be changed after creation & can be used as a primitive type)
+StringBuilder is mutable (both are classes)
