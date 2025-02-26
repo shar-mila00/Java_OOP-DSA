@@ -1,0 +1,24 @@
+declaration,initialization : compile time
+creation ofan object : run time
+
+function call, instancs variable/reference : stack memory,  All objects/references/classes : heap memory
+primitives (can't be broken down) are stored in stack memory 
+
+heap is run time data area where all instances are created,, memory space is being allocated during run time 
+
+Assigning some memory space during execution/run time : dynamic memory allocation
+
+A "data type" defines the category or kind of data a variable can hold, like "integer" or "string", while a "literal" is the actual, directly written value of that data
+
+null is a special literal/literal, for an string type array,by default it's null 
+null can't be assigned to any primitive type, only for non - primitive
+any eference variable that hasn't been assigned to any value: by default its null type 
+null can be typecast,, by default its the value of any reference type 
+
+an array of objects/reference variables : each element is object stored in different parts of heap memory (arr[9] is the reference variable pointing to the object)
+array is actually keeping reference variables, objects are created anywhere in heap
+
+function : pass by value, take copy of reference variable passed to the function pointing to the same object 
+arrays are mutable, can change the object , continuous memory allocation 
+
+multidimensional array : array of arrays, collection of reference variables pointing to arrays stored anywhere i heap 
