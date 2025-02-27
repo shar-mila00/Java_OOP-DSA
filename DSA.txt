@@ -22,3 +22,7 @@ function : pass by value, take copy of reference variable passed to the function
 arrays are mutable, can change the object , continuous memory allocation 
 
 multidimensional array : array of arrays, collection of reference variables pointing to arrays stored anywhere i heap 
+for an ArrayList: sizes can be changed, everytime it is changed, it'll create a new array of double size, copy the old array, adding to new element
+
+array.length : here length is a variable but str.length() : it's a method
+internally String is an array of characters

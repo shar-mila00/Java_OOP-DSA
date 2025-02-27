@@ -1,3 +1,4 @@
+package Array;
 import java.util.*;
 
 public class Array {
@@ -17,7 +18,7 @@ public class Array {
             arr[i] = in.nextInt();
         }
 
-        //enhanced for loop/for-each loop
+        //enhanced for loop/for-each loop only for array
         for (int j : arr) {
             System.out.print(j + " "); // j is the reference variable, for every elelment
         }
