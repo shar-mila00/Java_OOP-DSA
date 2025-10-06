@@ -1,5 +1,5 @@
 package linear_search;
-
+import java.util.*;
 public class SearchIn2DArray {
     public static void main(String[] args) {
         int[][] arr = {
@@ -9,12 +9,11 @@ public class SearchIn2DArray {
         };
 
         int target = 23;
+        int[] ans = search2D(arr, target); 
+        System.out.println(Arrays.toString(ans));
 
-        int[][] arr1 = {
-            {},
-            {},
-        };
-        System.out.println(arr1.length);
+        System.out.println(maxNum(arr, arr[0][0]));
+        
         
     }
 
@@ -27,5 +26,17 @@ public class SearchIn2DArray {
             }
         }
         return new int[] {-1, -1};
+    }
+
+    static int maxNum(int[][] arr, int maxN) {
+         
+        for (int[] a : arr) {
+            for (int j = 0; j < a.length; j++) {
+                if (a[j] > maxN) {
+                    maxN = a[j];
+                }
+            }
+        }
+        return maxN;
     }
 }
